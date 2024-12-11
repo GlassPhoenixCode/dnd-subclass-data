@@ -1,0 +1,126 @@
+{
+  "Barbarian": [
+    "Path of the Berserker",
+    "Path of the Totem Warrior",
+    "Path of the Ancestral Guardian",
+    "Path of the Storm Herald",
+    "Path of the Zealot",
+    "Path of Wild Magic",
+    "Path of the Beast"
+  ],
+  "Bard": [
+    "College of Lore",
+    "College of Valor",
+    "College of Glamour",
+    "College of Swords",
+    "College of Whispers",
+    "College of Eloquence",
+    "College of Creation"
+  ],
+  "Cleric": [
+    "Life Domain",
+    "Light Domain",
+    "Trickery Domain",
+    "War Domain",
+    "Knowledge Domain",
+    "Nature Domain",
+    "Tempest Domain",
+    "Death Domain",
+    "Forge Domain",
+    "Grave Domain",
+    "Order Domain",
+    "Peace Domain",
+    "Twilight Domain"
+  ],
+  "Druid": [
+    "Circle of the Land",
+    "Circle of the Moon",
+    "Circle of Dreams",
+    "Circle of the Shepherd",
+    "Circle of Spores",
+    "Circle of Stars",
+    "Circle of Wildfire"
+  ],
+  "Fighter": [
+    "Champion",
+    "Battle Master",
+    "Eldritch Knight",
+    "Arcane Archer",
+    "Cavalier",
+    "Samurai",
+    "Purple Dragon Knight",
+    "Echo Knight",
+    "Rune Knight",
+    "Psi Warrior"
+  ],
+  "Monk": [
+    "Way of the Open Hand",
+    "Way of Shadow",
+    "Way of the Four Elements",
+    "Way of the Long Death",
+    "Way of the Sun Soul",
+    "Way of the Kensei",
+    "Way of the Drunken Master",
+    "Way of Mercy",
+    "Way of the Astral Self"
+  ],
+  "Paladin": [
+    "Oath of Devotion",
+    "Oath of the Ancients",
+    "Oath of Vengeance",
+    "Oath of Conquest",
+    "Oath of Redemption",
+    "Oath of Glory",
+    "Oath of the Watchers",
+    "Oathbreaker"
+  ],
+  "Ranger": [
+    "Hunter",
+    "Beast Master",
+    "Gloom Stalker",
+    "Horizon Walker",
+    "Monster Slayer",
+    "Fey Wanderer",
+    "Swarmkeeper"
+  ],
+  "Rogue": [
+    "Thief",
+    "Assassin",
+    "Arcane Trickster",
+    "Mastermind",
+    "Swashbuckler",
+    "Inquisitive",
+    "Scout",
+    "Phantom",
+    "Soulknife"
+  ],
+  "Sorcerer": [
+    "Draconic Bloodline",
+    "Wild Magic",
+    "Storm Sorcery",
+    "Divine Soul",
+    "Shadow Magic",
+    "Aberrant Mind"
+  ],
+  "Warlock": [
+    "The Archfey",
+    "The Fiend",
+    "The Great Old One",
+    "The Hexblade",
+    "The Celestial",
+    "The Fathomless",
+    "The Genie"
+  ],
+  "Wizard": [
+    "School of Evocation",
+    "School of Abjuration",
+    "School of Conjuration",
+    "School of Divination",
+    "School of Enchantment",
+    "School of Illusion",
+    "School of Necromancy",
+    "School of Transmutation",
+    "Bladesinging",
+    "Order of Scribes"
+  ]
+}
