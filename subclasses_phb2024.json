@@ -1,0 +1,625 @@
+[
+    {
+        "name": "Path of the Berserker",
+        "description": "Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. They thrill in the chaos of battle, allowing their Rage to seize and empower them.",
+        "features": {
+            "level3": "Frenzy: Extra damage to first target on your turn when using Reckless Attack while raging.",
+            "level6": "Mindless Rage: Immunity to Charmed and Frightened while raging.",
+            "level10": "Retaliation: Reaction melee attack against a creature that damages you within 5 feet.",
+            "level14": "Intimidating Presence: Frighten enemies in a 30-foot radius as a Bonus Action (once per Long Rest, or spend a Rage to refresh)."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Path of the Wild Heart",
+        "description": "Barbarians who embrace the Path of the Wild Heart channel the primal power of animals, drawing on different totems for their Rage.",
+        "features": {
+            "level3": "Rage of the Wilds: Choose Bear (resistance to many damage types), Eagle (Disengage and Dash as Bonus Action), or Wolf (ally advantage on attacks).",
+            "level6": "Aspect of the Wilds: Choose Owl (Darkvision), Panther (Climb Speed), or Salmon (Swim Speed) at each Long Rest.",
+            "level10": "Nature Speaker: Cast Commune with Nature as a Ritual.",
+            "level14": "Power of the Wilds: Choose Falcon (Fly Speed), Lion (enemy disadvantage), or Ram (prone on hit) each time you Rage."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Path of the World Tree",
+        "description": "Barbarians who follow the Path of the World Tree draw on the cosmic Yggdrasil for vitality and dimensional travel.",
+        "features": {
+            "level3": "Vitality Surge and Life-Giving Force: Gain Temporary Hit Points when you Rage, and grant them to others within 10 feet each turn.",
+            "level6": "Branches of the Tree: Use Reaction to teleport an enemy within 30 feet and reduce its Speed to 0.",
+            "level10": "Battering Roots: +10 ft reach for Heavy/Versatile weapons and extra mastery property use.",
+            "level14": "Travel along the Tree: Teleport up to 60 ft as a Bonus Action, or 150 ft with up to 6 allies once per Rage."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Path of the Zealot",
+        "description": "Barbarians who walk the Path of the Zealot channel divine fury, becoming champions of their gods.",
+        "features": {
+            "level3": "Divine Fury: Deal extra radiant or necrotic damage on your first hit each turn while raging.",
+            "level6": "Warrior of the Gods: Resurrection magic doesn’t require material components for you.",
+            "level10": "Zealous Presence: Bonus Action to grant advantage on attack rolls and saving throws to allies within 60 feet for 1 round.",
+            "level14": "Rage Beyond Death: While raging, you can continue fighting at 0 HP and won’t die until your Rage ends."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "College of Dance",
+        "description": "Bards of the College of Dance understand that the Words of Creation are expressed through motion. They channel this power through dancing to inspire allies and distract foes.",
+        "features": {
+            "level3": "Dazzling Footwork: Advantage on Performance (dance), Unarmored Defense, Agile Strikes with Bardic Inspiration.",
+            "level6": "Inspiring Movement: Move and grant an ally movement when an enemy ends their turn near you.",
+            "level6_2": "Tandem Footwork: Bonus to Initiative for you and allies by expending Bardic Inspiration.",
+            "level14": "Leading Evasion: Share Evasion benefit with allies within 5 feet."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "College of Glamour",
+        "description": "The College of Glamour draws on the fey's beguiling magic. Bards of this college evoke ancient longings and instill fear and wonder through their performances.",
+        "features": {
+            "level3": "Mantle of Inspiration: Grant Temporary HP and movement without Opportunity Attacks.",
+            "level3_2": "Enthralling Performance: Charm and captivate up to 5 creatures.",
+            "level6": "Mantle of Majesty: Cast Command as a Bonus Action while Charmed creatures fail the save automatically.",
+            "level14": "Unbreakable Majesty: Become harder to hit as attackers recoil from your presence."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "College of Lore",
+        "description": "The College of Lore values knowledge above all. Its bards seek out hidden truths and use their knowledge to outwit foes.",
+        "features": {
+            "level3": "Bonus Proficiencies: Gain proficiency in three skills of your choice.",
+            "level3_2": "Cutting Words: Use Bardic Inspiration to subtract from an enemy's roll.",
+            "level6": "Magical Discoveries: Learn two additional spells from Cleric, Druid, or Wizard lists.",
+            "level14": "Peerless Skill: Use Bardic Inspiration to potentially turn a failed roll into a success."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "College of Valor",
+        "description": "Bards of the College of Valor sing the deeds of legendary heroes, inspiring others to brave acts of courage.",
+        "features": {
+            "level3": "Combat Inspiration: Use Bardic Inspiration for AC or damage bonuses.",
+            "level3_2": "Martial Training: Proficiency with Martial weapons, Medium armor, and Shields.",
+            "level6": "Extra Attack: Attack twice when you take the Attack action.",
+            "level14": "Battle Magic: Cast a spell as an Action, then make a weapon attack as a Bonus Action."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Life Domain",
+        "description": "Focuses on the positive energy that sustains life, healing allies and supporting communities.",
+        "features": {
+            "level3": [
+                "Disciple of Life: Additional healing when using spell slots.",
+                "Life Domain Spells: Always prepared spells (Aid, Bless, Cure Wounds, Lesser Restoration).",
+                "Preserve Life: Channel Divinity to distribute healing."
+            ],
+            "level6": "Blessed Healer: You regain Hit Points when you cast healing spells on others.",
+            "level17": "Supreme Healing: Always use max value for healing dice."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Light Domain",
+        "description": "Harness the power of light to banish darkness and reveal hidden truths.",
+        "features": {
+            "level3": [
+                "Light Domain Spells: Always prepared spells (Faerie Fire, Burning Hands, etc.).",
+                "Warding Flare: Use your reaction to impose disadvantage on an attack against you."
+            ],
+            "level6": "Improved Flare: Use Warding Flare for allies within 30 feet.",
+            "level17": "Corona of Light: Bright light aura with radiant power."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Trickery Domain",
+        "description": "Embrace illusions and trickery to undermine oppressors and challenge the status quo.",
+        "features": {
+            "level3": [
+                "Blessing of the Trickster: Advantage on Stealth for yourself or an ally.",
+                "Invoke Duplicity: Create an illusion of yourself for tactical advantages.",
+                "Trickery Domain Spells: Always prepared spells (Charm Person, Disguise Self, Invisibility, Pass without Trace)."
+            ],
+            "level6": "Improved Duplicity: Use your illusion to heal or distract enemies.",
+            "level17": "Improved Distraction: Attack rolls have Advantage when enemies are within 5 feet of the illusion."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "War Domain",
+        "description": "Lead allies into battle and channel divine might to bolster combat.",
+        "features": {
+            "level3": [
+                "Guided Strike: +10 bonus to an attack roll as a reaction.",
+                "War Domain Spells: Always prepared spells (Guiding Bolt, Magic Weapon, Shield of Faith, Spiritual Weapon).",
+                "War Priest: Bonus Action attacks a number of times equal to your Wisdom modifier."
+            ],
+            "level6": "War God's Blessing: Use Channel Divinity to cast Shield of Faith or Spiritual Weapon without using spell slots.",
+            "level17": "Avatar of Battle: Resistance to Bludgeoning, Piercing, and Slashing damage."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Circle of the Land",
+        "description": "Mystics and sages who safeguard ancient knowledge and rites, attuning to the land's spirits and drawing on the power of natural realms.",
+        "features": {
+            "level3": [
+                "Circle Spells: Choose a land type and gain associated spells that are always prepared.",
+                "Land's Aid: Use Wild Shape to heal allies and damage foes in a 10-foot radius."
+            ],
+            "level6": "Natural Recovery: Regain expended spell slots after a Short Rest.",
+            "level10": "Nature’s Ward: Gain immunity to Poisoned condition and resistance to a damage type based on your land choice.",
+            "level14": "Nature’s Sanctuary: Summon spectral trees and vines to shield allies and move them across the battlefield."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Circle of the Moon",
+        "description": "Druids of this circle draw on lunar magic to transform themselves, changing forms as swiftly as the moon's phases.",
+        "features": {
+            "level3": [
+                "Circle Forms: Wild Shape into beasts of higher Challenge Ratings and gain enhanced AC and temporary HP.",
+                "Circle of the Moon Spells: Always have certain spells prepared that can be cast even while in Wild Shape."
+            ],
+            "level6": "Improved Circle Forms: Attacks can deal Radiant damage, and you gain a bonus to Constitution saves while in Wild Shape."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Circle of the Sea",
+        "description": "Embody the power of oceans and tides, channeling elemental magic and moving with the flow of water.",
+        "features": {
+            "level3": "Gain water-themed Circle Spells and the ability to breathe underwater and swim at speed.",
+            "level6": "Sea’s Protection: Gain resistance to cold damage and improved mobility underwater.",
+            "level10": "Tidal Surge: Use your Wild Shape to create waves that knock enemies prone and move allies.",
+            "level14": "Avatar of the Sea: Summon watery forms to protect allies and strike foes."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Circle of the Stars",
+        "description": "Seek to chart the constellations and draw upon their power to heal, protect, and transform.",
+        "features": {
+            "level3": "Star Map: Create a magical map to track constellations and gain cosmic insights.",
+            "level6": "Cosmic Form: Use your Wild Shape to take on a constellation’s aspect, bolstering your magic and combat abilities.",
+            "level10": "Celestial Resilience: Gain temporary HP and protect allies when casting certain spells.",
+            "level14": "Galactic Convergence: Unleash radiant energy in an aura that heals allies and damages foes."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Battle Master",
+        "description": "Battle Masters are students of the art of battle, mastering combat maneuvers passed down through generations.",
+        "features": {
+            "level3": [
+                "Combat Superiority: Learn maneuvers and gain Superiority Dice to fuel them.",
+                "Student of War: Gain proficiency with one Artisan's Tool and one skill of your choice."
+            ],
+            "level7": "Know Your Enemy: Discern a creature's resistances, immunities, and vulnerabilities.",
+            "level10": "Improved Combat Superiority: Superiority Dice become d10s.",
+            "level15": "Relentless: Once per turn, you can roll 1d8 and use the number without expending a Superiority Die.",
+            "level18": "Ultimate Combat Superiority: Superiority Dice become d12s."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Champion",
+        "description": "Champions focus on physical perfection and excel in combat with greater resilience and precision.",
+        "features": {
+            "level3": "Improved Critical: Score critical hits on rolls of 19 or 20.",
+            "level7": "Remarkable Athlete: Gain half proficiency in any Strength, Dexterity, or Constitution check you aren't proficient in.",
+            "level10": "Additional Fighting Style: Learn another Fighting Style.",
+            "level15": "Superior Critical: Critical hits now score on rolls of 18–20.",
+            "level18": "Survivor: Regain HP equal to half your Fighter level at the start of each turn if below half HP."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Eldritch Knight",
+        "description": "Eldritch Knights weave magic into their combat, combining spellcasting with martial prowess.",
+        "features": {
+            "level3": [
+                "Spellcasting: Learn two Wizard cantrips and three 1st-level spells.",
+                "Weapon Bond: Bond with up to two weapons, summoning them instantly."
+            ],
+            "level7": "War Magic: Use a weapon attack and a cantrip in the same turn.",
+            "level10": "Eldritch Strike: Attacks impose Disadvantage on enemy saves against your next spell.",
+            "level15": "Arcane Charge: Teleport 30 feet as part of Action Surge.",
+            "level18": "Improved War Magic: Cast a 1st or 2nd level spell and make two attacks in the same turn."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Psi Warrior",
+        "description": "Psi Warriors channel psionic power to protect allies and unleash mental force in combat.",
+        "features": {
+            "level3": [
+                "Psionic Power: Gain Psi Energy Dice to fuel your psionic abilities.",
+                "Protective Field: Reduce damage taken by yourself or an ally.",
+                "Psionic Strike: Deal extra Force damage when you hit with a weapon.",
+                "Telekinetic Movement: Move an object or willing creature with your mind."
+            ],
+            "level7": [
+                "Psi-Powered Leap: Gain Fly Speed for a turn.",
+                "Telekinetic Thrust: Move or knock prone an enemy you hit with Psionic Strike."
+            ],
+            "level10": "Guarded Mind: Gain Resistance to Psychic damage and end Charmed or Frightened effects.",
+            "level15": "Bulwark of Force: Create a protective barrier for allies.",
+            "level18": "Telekinetic Master: Use Telekinesis once per rest without expending a spell slot."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Warrior of Mercy",
+        "description": "Warriors of Mercy manipulate the life force of others. They are wandering physicians and bringers of both life and death.",
+        "features": {
+            "level3": [
+                "Hand of Harm: Deal extra necrotic damage with Unarmed Strike.",
+                "Hand of Healing: Heal an ally with a touch, also as part of Flurry of Blows.",
+                "Implements of Mercy: Gain proficiency with Insight, Medicine, and Herbalism Kit."
+            ],
+            "level6": "Physician’s Touch: Enhance Hand of Harm and Healing with the ability to cure conditions or inflict Poisoned.",
+            "level11": "Flurry of Healing and Harm: Replace each Unarmed Strike in Flurry of Blows with healing."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Warrior of Shadow",
+        "description": "Monks of the Shadow embrace darkness and stealth, using shadow magic to strike unseen.",
+        "features": {
+            "level3": [
+                "Shadow Arts: Cast darkness, darkvision, pass without trace, or silence using Focus Points.",
+                "Shadow Step: Teleport up to 60 feet from shadow to shadow."
+            ],
+            "level6": "Shadow Cloak: Become invisible when in dim light or darkness until you attack or cast a spell.",
+            "level11": "Opportunist: Make a melee attack against a creature damaged by another’s attack within 5 feet of you."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Warrior of the Elements",
+        "description": "These Monks channel elemental forces, shaping their Ki to wield flame, wave, or storm.",
+        "features": {
+            "level3": [
+                "Elemental Attunement: Manipulate elemental effects.",
+                "Elemental Strikes: Spend Focus Points to add elemental damage to your unarmed strikes."
+            ],
+            "level6": "Elemental Evasion: Use Focus Points to negate damage from elemental effects.",
+            "level11": "Elemental Flurry: Spend Focus Points to strike with elemental attacks in Flurry of Blows."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Warrior of the Open Hand",
+        "description": "Masters of martial arts, these Monks learn to harness the power of perfect strikes and inner focus.",
+        "features": {
+            "level3": [
+                "Open Hand Technique: Add effects like knock prone, push, or block reactions to Flurry of Blows.",
+                "Wholeness of Body: Heal yourself with an action."
+            ],
+            "level6": "Tranquility: Gain a sanctuary effect that lasts until you attack or cast a spell.",
+            "level11": "Mastery of Body: Regain expended Focus Points when reducing an enemy to 0 HP."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Oath of Devotion",
+        "description": "Paladins who swear the Oath of Devotion are devoted to justice and order, holding themselves and others to the highest standards of conduct.",
+        "tenets": [
+            "Let your word be your promise.",
+            "Protect the weak and never fear to act.",
+            "Let your honorable deeds be an example."
+        ],
+        "features": {
+            "level3": [
+                "Sacred Weapon: Channel Divinity to imbue a melee weapon with positive energy, dealing Radiant damage.",
+                "Oath of Devotion Spells: Gain always-prepared spells."
+            ],
+            "level7": "Aura of Devotion: You and allies in your aura are immune to being charmed.",
+            "level15": "Smite of Protection: Allies gain Half Cover when you use Divine Smite.",
+            "level20": "Holy Nimbus: As a bonus action, gain an aura of radiant damage and advantage on saving throws forced by Fiends and Undead for 10 minutes."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Oath of Glory",
+        "description": "Paladins of this oath believe in heroic deeds and encourage companions to strive for greatness.",
+        "tenets": [
+            "Endeavor to be known by your deeds.",
+            "Face hardships with courage.",
+            "Inspire others to strive for glory."
+        ],
+        "features": {
+            "level3": [
+                "Inspiring Smite: After using Divine Smite, grant Temporary Hit Points to nearby allies.",
+                "Peerless Athlete: Use Channel Divinity to gain advantage on Athletics and Acrobatics checks and increased jump distance."
+            ],
+            "level7": "Aura of Alacrity: Increase Speed for you and allies in your aura.",
+            "level15": "Glorious Defense: As a reaction, boost an ally's AC or make an attack if an attack misses.",
+            "level20": "Living Legend: Gain advantage on Charisma checks, reroll failed saving throws, and ensure attacks hit for 10 minutes."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Oath of the Ancients",
+        "description": "Paladins of this oath cherish life, light, and beauty, defending them against the darkness.",
+        "tenets": [
+            "Kindle the light of hope.",
+            "Shelter life.",
+            "Delight in art and laughter."
+        ],
+        "features": {
+            "level3": [
+                "Nature’s Wrath: Use Channel Divinity to restrain enemies with spectral vines.",
+                "Oath of the Ancients Spells: Gain always-prepared spells."
+            ],
+            "level7": "Aura of Warding: You and allies in your aura have resistance to necrotic, psychic, and radiant damage.",
+            "level15": "Undying Sentinel: Drop to 1 HP instead of 0 once per long rest; immunity to magical aging.",
+            "level20": "Elder Champion: Aura grants disadvantage on saves for enemies, HP regeneration, and quicker spellcasting for 1 minute."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Oath of Vengeance",
+        "description": "These Paladins swear to punish those who do great evil, pursuing them relentlessly.",
+        "tenets": [
+            "Show the wicked no mercy.",
+            "Fight injustice and its causes.",
+            "Aid those harmed by injustice."
+        ],
+        "features": {
+            "level3": [
+                "Vow of Enmity: Gain advantage on attacks against a creature you choose as your foe.",
+                "Oath of Vengeance Spells: Gain always-prepared spells."
+            ],
+            "level7": "Relentless Avenger: When you hit with an Opportunity Attack, reduce the enemy’s Speed to 0 and move half your Speed.",
+            "level15": "Soul of Vengeance: Make an immediate melee attack against a creature under Vow of Enmity if it hits or misses you.",
+            "level20": "Avenging Angel: Gain flight and a frightening aura that affects enemies in your Aura of Protection."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Beast Master",
+        "description": "A mystical bond with a primal beast, drawing strength from nature.",
+        "features": {
+            "level3": "Primal Companion: Summon a primal beast and bond with it.",
+            "level7": "Exceptional Training: Command your beast to perform additional actions.",
+            "level11": "Bestial Fury: Command your beast to make an extra attack.",
+            "level15": "Share Spells: Your spells can also affect your companion."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Fey Wanderer",
+        "description": "Rangers who have been touched by the feywilds, weaving fey magic and nature together.",
+        "features": {
+            "level3": "Dreadful Strikes: Add extra psychic damage to attacks.",
+            "level7": "Otherworldly Glamour: Gain additional charm and persuasion abilities.",
+            "level11": "Beguiling Twist: Redirect charms and fears onto other targets.",
+            "level15": "Misty Presence: Step through the mists of the Feywild to slip past enemies."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Gloom Stalker",
+        "description": "Masters of the shadows, striking from the darkness.",
+        "features": {
+            "level3": "Gloom Stalker Magic: Always have certain spells prepared.",
+            "level3_2": "Umbral Sight: Gain Darkvision and become invisible to creatures relying on Darkvision.",
+            "level7": "Iron Mind: Gain proficiency in Wisdom saving throws.",
+            "level11": "Stalker’s Flurry: Additional attacks and fear effects on targets.",
+            "level15": "Shadowy Dodge: Disadvantage on attacks and teleport as a reaction."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Hunter",
+        "description": "Guardians of the wilds, expert trackers and resilient warriors.",
+        "features": {
+            "level3": "Hunter’s Prey: Choose between different damage-focused features.",
+            "level7": "Defensive Tactics: Gain additional defensive abilities.",
+            "level11": "Multiattack: Gain options to attack multiple enemies.",
+            "level15": "Superior Hunter’s Defense: Gain resistance or other defensive abilities."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Arcane Trickster",
+        "description": "Enhance stealth and agility with spells, using magical tricks to aid in roguish work.",
+        "features": {
+            "level3": [
+                "Spellcasting: Learn Wizard cantrips and spells. Starts with 3 cantrips (Mage Hand + 2 Wizard).",
+                "Spell Slots and Prepared Spells: Increase with level, based on the Arcane Trickster Spellcasting table."
+            ],
+            "level7": "Mage Hand Legerdemain: Improved control of Mage Hand, making it invisible and more precise.",
+            "level13": "Magical Ambush: Creatures have disadvantage on saves against your spells when hidden.",
+            "level17": "Versatile Trickster: Use Mage Hand to distract and grant Advantage on your attacks."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Assassin",
+        "description": "Stealthy killers and infiltrators, masters of poisons and disguise.",
+        "features": {
+            "level3": [
+                "Assassinate: Advantage on Initiative and surprise attacks; extra damage on first hit in the first round.",
+                "Assassin’s Tools: Proficiency with Disguise Kit and Poisoner’s Kit."
+            ],
+            "level9": "Infiltration Expertise: Mimic speech or handwriting perfectly after 1 hour of study.",
+            "level13": "Envenom Weapons: Enhance poison damage when using the Poison option of Cunning Strike.",
+            "level17": "Death Strike: Double damage on successful Sneak Attack in the first round if the target fails a save."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Soulknife",
+        "description": "Harness psychic energy to create psionic blades and enhance mental abilities.",
+        "features": {
+            "level3": [
+                "Psionic Power: Use Psionic Energy Dice to fuel powers.",
+                "Psi-Bolstered Knack: Add dice to ability checks with proficiency.",
+                "Psychic Whispers: Establish telepathic communication with allies."
+            ],
+            "level9": "Psychic Teleportation: Use dice to teleport as a Bonus Action.",
+            "level13": "Psionic Veil: Become invisible for 1 minute.",
+            "level17": "Rend Mind: Force a target to make a Wisdom save or be stunned."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Thief",
+        "description": "Nimble and resourceful, masters of quick movement and creative use of items.",
+        "features": {
+            "level3": "Fast Hands: Use the Bonus Action granted by Cunning Action to make a Dexterity (Sleight of Hand) check, use thieves’ tools, or use an object.",
+            "level9": "Supreme Sneak: Advantage on Stealth checks if moving no more than half speed.",
+            "level13": "Use Magic Device: Use any magic item regardless of class, race, or level.",
+            "level17": "Thief’s Reflexes: Take two turns in the first round of combat."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Aberrant Sorcery",
+        "description": "Wield alien psionic power gifted by an otherworldly influence. These Sorcerers have been touched by the Far Realm or other dimensions, granting them unique psionic abilities.",
+        "features": {
+            "level3": [
+                "Psionic Spells: Always have certain spells prepared (Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, Mind Sliver).",
+                "Telepathic Speech: Establish a telepathic link with a creature within 30 feet for a number of minutes equal to your Sorcerer level."
+            ],
+            "level6": [
+                "Psionic Sorcery: Cast psionic spells by spending Sorcery Points instead of slots, bypassing components.",
+                "Psychic Defenses: Resistance to Psychic damage and advantage on saves to resist Charmed or Frightened conditions."
+            ],
+            "level14": "Revelation in Flesh: Use Sorcery Points to magically alter your body for 10 minutes, gaining various benefits (e.g., fly speed, gills, spectral arms)."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Clockwork Sorcery",
+        "description": "Channel the cosmic order of the universe, using mechanical precision and the power of the cosmic gears.",
+        "features": {
+            "level3": "Clockwork Magic: Always have certain spells prepared (Alarm, Protection from Evil and Good, etc.) and gain proficiency with Smith's Tools.",
+            "level6": "Bastion of Law: Use Sorcery Points to create a protective ward that absorbs damage.",
+            "level14": "Trance of Order: Enter a state of perfect order that negates advantage or disadvantage on rolls near you."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Draconic Sorcery",
+        "description": "Channel the ancient power of dragons in your blood, gaining resilience, draconic presence, and elemental magic.",
+        "features": {
+            "level3": "Draconic Resilience: Your skin toughens, giving you natural armor and increased HP.",
+            "level6": "Elemental Affinity: Deal extra damage with spells matching your dragon type and gain resistance to that damage type.",
+            "level14": "Dragon Wings: Sprout dragon wings to fly for 10 minutes."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Wild Magic Sorcery",
+        "description": "Your magic is tied to chaos, and unpredictable surges of power manifest in the Wild Magic Surge table.",
+        "features": {
+            "level3": "Wild Magic Surge: Trigger a surge of random magical effects when you cast spells.",
+            "level6": "Bend Luck: Spend Sorcery Points to add or subtract d4 to attack, save, or ability checks of any creature within 60 feet.",
+            "level14": "Controlled Chaos: Reroll on the Wild Magic Surge table when rolling for a surge."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Archfey Patron",
+        "description": "Your pact draws on the power of the Fey wild. The archfey are often inscrutable and whimsical, granting you the ability to weave illusions and charm others.",
+        "features": {
+            "level3": [
+                "Archfey Spells: Always have certain spells prepared, including Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, Sleep.",
+                "Steps of the Fey: Use Misty Step a number of times equal to your Charisma modifier, and gain additional effects like Temporary HP or imposing Disadvantage on enemies."
+            ],
+            "level6": "Misty Escape: Use Misty Step as a reaction to taking damage, plus additional options like invisibility and psychic damage.",
+            "level10": "Beguiling Defenses: Immune to the Charmed condition and reactive defense that reflects damage."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Celestial Patron",
+        "description": "You serve a being of radiant light, gaining healing abilities and protective powers.",
+        "features": {
+            "level3": "Celestial Spells: Always have certain spells prepared, including Cure Wounds and Lesser Restoration.",
+            "level6": "Healing Light: Use a pool of d6 dice to heal allies as a Bonus Action.",
+            "level10": "Radiant Soul: Add radiant damage to spells and gain resistance to radiant damage."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Fiend Patron",
+        "description": "Your patron is a powerful fiend from the Lower Planes, giving you powers of fire and destruction.",
+        "features": {
+            "level3": "Fiend Spells: Always have certain spells prepared, including Burning Hands, Fireball, and Scorching Ray.",
+            "level6": "Dark One's Own Luck: Add a d10 to an ability check or saving throw once per rest.",
+            "level10": "Fiendish Resilience: Gain resistance to one damage type of your choice each rest."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Great Old One Patron",
+        "description": "You have made a pact with an entity from beyond the stars, gaining mind-bending powers and psychic abilities.",
+        "features": {
+            "level3": "Great Old One Spells: Always have certain spells prepared, including Detect Thoughts and Dissonant Whispers.",
+            "level3_2": "Awakened Mind: Telepathic communication within a number of miles equal to your Charisma modifier.",
+            "level6": "Clairvoyant Combatant: Gain advantage on attack rolls against a creature you have a telepathic link with.",
+            "level10": "Thought Shield: Resistance to Psychic damage and reactive damage reflection."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Abjurer",
+        "description": "Abjurers specialize in protective and banishing magic, shielding themselves and allies from harm and dismissing threats.",
+        "features": {
+            "level3": [
+                "Abjuration Savant: Add two level 1–2 Abjuration spells to your spellbook for free.",
+                "Arcane Ward: Create a protective ward when you cast Abjuration spells, absorbing damage until depleted."
+            ],
+            "level6": "Projected Ward: Use your Reaction to let your Arcane Ward absorb damage for an ally within 30 feet.",
+            "level10": "Improved Abjuration: Add proficiency bonus to ability checks made as part of casting Abjuration spells."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Diviner",
+        "description": "Diviners glimpse the future and unravel secrets, using magic to manipulate fate and foresee the truth.",
+        "features": {
+            "level3": [
+                "Divination Savant: Add two level 1–2 Divination spells to your spellbook for free.",
+                "Portent: Roll two d20s and record the results, replacing rolls for yourself or others."
+            ],
+            "level6": "Expert Divination: Regain spell slots after casting Divination spells of level 2+.",
+            "level10": "Third Eye: Gain benefits like Darkvision or see invisibility."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Evoker",
+        "description": "Evokers are masters of elemental magic, focusing their power for maximum damage.",
+        "features": {
+            "level3": [
+                "Evocation Savant: Add two level 1–2 Evocation spells to your spellbook for free.",
+                "Sculpt Spells: Create safe pockets for allies when casting Evocation spells."
+            ],
+            "level6": "Potent Cantrip: Add damage even on failed saves with your cantrips.",
+            "level10": "Empowered Evocation: Add Intelligence modifier to damage rolls of Evocation spells."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    },
+    {
+        "name": "Illusionist",
+        "description": "Illusionists weave deceptive illusions and falsehoods to confound their enemies and reshape reality.",
+        "features": {
+            "level3": [
+                "Illusion Savant: Add two level 1–2 Illusion spells to your spellbook for free.",
+                "Improved Minor Illusion: Use Minor Illusion cantrip to create both sound and image."
+            ],
+            "level6": "Malleable Illusions: Alter illusions after casting to fit new situations.",
+            "level10": "Illusory Self: Create a duplicate of yourself to deflect an attack."
+        },
+        "source": "DnD 5.5e - Players Handbook 2024"
+    }
+]
